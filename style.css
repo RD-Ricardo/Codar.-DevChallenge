@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90px;
+}
+.navbar__container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__titulo{
+    font-size: 50px;
+    font-weight: bold;
+    color: #D6000D;
+}
+.navbar__titulo::after{
+    content: '.';
+    color: black;
+}
+.navbar__lista{
+    display: flex;
+    padding: 20px;
+}
+.navbar__item{
+    margin-right:50px;
+    list-style: none;
+}
+.navbar__link{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    width: 100px;
+    height: 20px;
+    color: white;
+    background-color:#D6000D;
+    padding: 10px 70px;
+    border-radius: 10px;
+}
+.img{
+    width: 600px;
+    height: 60vh;
+}
+.view{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+  
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 42%;
+    margin-left: 130px;
+}
+.view__titulo--1{
+    font-size: 30px;
+}
+.view__titulo--2{
+    font-size: 70px;
+    color: #D6000D;
+}
+.btn__orcamento{
+    width: 400px;
+    height: 60px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #D6000D;
+    border: 1px solid #D6000D;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.grupo__lista{
+    height: 80vh;
+    width: 620px;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+  
+}
+.item{
+    font-size: 35px;
+    list-style: none;
+    padding: 10px;
+}
+.item::before{
+    content: '✔';
+    margin-right: 35px;
+    background-color:#D6000D;
+    color: #fff;
+    padding: 10px;
+    border-radius: 120%;
+    margin-bottom: 10px;
+}
+.titulo__contato{
+    margin-top: 120px;
+    font-size: 35px;
+}
+
+.btn__text{
+    width: 300px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #DCDCDC;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.btn__novo{
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #D6000D;
+    border: 1px solid #D6000D;
+    cursor: pointer;
+}
+
+.rodape{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    flex-direction: end;
+
+}
+.rodape p{
+    font-size: 20px;
+}
+.container__rodape{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.tlt{
+margin-top: 100px;
+margin-bottom: 30px;
+font-size: 40px; 
+}
+
+.redes i{
+    color: #D6000D;
+}
+.img2{
+    
+}
